@@ -1,3 +1,65 @@
+.main-bg {
+  height: 300px;
+  /* background-image: url("./img/bg.png"); 이렇게 해도 되고, App.js 처럼 해도 된다.*/
+  background-size: cover;
+  background-position: center;
+}
+
+.LoadingBox {
+  background: #eee;
+  z-index: 999;
+  text-align: center;
+  position: relative;
+}
+
+.start {
+  opacity: 0;
+  /* transform: scale(0); */
+}
+
+.end {
+  opacity: 1;
+  /* transform: scale(1); */
+  transition: opacity 0.5s;
+}
+
+.watched-box {
+  right: 10px;
+  top: 200px;
+  width: 120px;
+  height: 220px;
+  position: fixed;
+  padding: 0px;
+  margin: 0px;
+  background-color: rgba(202, 202, 202, 0.263);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 1;
+}
+.watched-box-title {
+  width: 120px;
+  height: 30px;
+  padding: 5px;
+  margin: 0px;
+  background-color: rgba(24, 24, 24, 0.648);
+  color: white;
+}
+.watched-item-image-box {
+  position: relative;
+}
+
+.watched-item-image {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -120%);
+  border-radius: 10px;
+  border: 1px solid rgba(202, 202, 202, 0.5);
+  width: 70px;
+}
+
 .App {
   text-align: center;
 }
