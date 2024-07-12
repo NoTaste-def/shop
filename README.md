@@ -12,4 +12,4 @@
 
 
 ## Link
-[Simple Shoe Shop][https://web-shop-lxmynpl6f586b2fd.sel5.cloudtype.app/]
+[Simple Shoe Shop](https://web-shop-lxmynpl6f586b2fd.sel5.cloudtype.app/)
